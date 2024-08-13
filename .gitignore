@@ -1,0 +1,95 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.sqlite
+/media
+/staticfiles
+/static
+
+# Local development environment
+admin/.env
+.env.local
+.env.*.local
+.envrc
+
+# Django settings for local development
+settings_local.py
+
+# Django migrations
+**/migrations/
+
+# Docker specific files
+*.swp
+docker-compose.override.yml
+docker-compose.local.yml
+docker-compose.*.yml
+
+# MySQL files
+*.sql
+*.sql.gz
+db.sqlite3
+
+# macOS specific files
+.DS_Store
+
+# Node modules
+node_modules/
+
+# Build outputs
+build/
+dist/
+
+# NPM log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage files
+.coverage
+*.cover
+.hypothesis/
+
+# Editor and IDE files
+.idea/  
+.idea        # PyCharm
+.vscode/  
+.vscode      # VSCode
+*.sublime-project
+*.sublime-workspace
+
+# React build artifacts
+*.log
+*.lock
+*.cache
+public/
+*.map
+*.html
+
+# Local static files for development
+static/
+
+# Secret keys or configuration files
+config.json
+secret-config.js
+
+# Python virtual environment
+*env/
+venv/
+env/
+ENV/
+admin/.env
+.env
+
